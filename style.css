@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    background-color: hsl(286, 96%, 34%);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 15px;
+}
+.menu a:hover{
+    color: #701010;
+}
+.navegacao{
+    background-color: hsla(0, 84%, 46%, 0);
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+.secao{
+    background-color: hsl(219, 93%, 21%);
+    
+}
+.rodape{
+    background-color: hsla(90, 100%, 7%, 0.589);
+}
