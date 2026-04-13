@@ -25,6 +25,10 @@
 .menu a:hover{
     color: #701010;
 }
+.conteudo {
+    display: flex;
+    height: 200px;
+}
 .navegacao{
     background-color: hsla(0, 84%, 46%, 0);
     display: inline-block;
